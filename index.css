@@ -1,0 +1,59 @@
+.UserFriendly {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #FFFFFF;
+  color: #111827;
+  border: #E5E7EB solid 1px; /* Softened from pure black for a cleaner look */
+  margin: 20px;
+  padding: 24px; /* Increased padding for better breathing room */
+  border-radius: 8px; /* Smooths out the card container */
+}
+
+.Goodh2 {
+  font-size: 32px;
+  line-height: 1.25;
+  margin-bottom: 16px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.Goodp {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  color: #374151; 
+}
+
+.Goodbutton {
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #3B82F6; 
+  color: #FFFFFF;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.Goodbutton:hover {
+  background-color: #2563EB; 
+}
+
+.NotUserFriendly {
+  color: lightgrey;
+}
+
+.Badh2 {
+  font-size: small;
+}
+
+
+.Badp {
+  text-decoration: line-through;
+}
+
+.Badbutton {
+  background-color: white;
+  border: none;
+}
